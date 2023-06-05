@@ -1,6 +1,6 @@
-#Guide to understand web3-react librbrary
+# Guide to understand web3-react librbrary
 
-The web3
+The web3-react linraries have following core modules: 
 
 core: This module contains the core functionality of web3-react. It includes the core context and hook implementations, which are the central components for managing the web3 connection and handling Ethereum-related operations.
 
