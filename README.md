@@ -50,7 +50,7 @@ Install Required Packages: Install the necessary packages for the specific conne
 * Import and Configure the Connector: Import the connector package into your code and configure it within the Web3ReactProvider component. Here's an example for using the MetaMask connector:
 
 // jsx
-```  import { Web3ReactProvider } from '@web3-react/core';
+```import { Web3ReactProvider } from '@web3-react/core';
     import { InjectedConnector } from '@web3-react/injected-connector';
 
 // Create an instance of the MetaMask connector
@@ -70,7 +70,8 @@ ReactDOM.render(
     <App />
   </Web3ReactProvider>,
   document.getElementById('root')
-);```
+); 
+```
 
 In this example, we create an instance of the InjectedConnector (MetaMask) and provide the supported chain IDs. We also define the getLibrary function, which initializes a web3 instance using the provider.
 
