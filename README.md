@@ -42,10 +42,9 @@ Setting up web3-react for different connectors involves configuring and integrat
 
 * Choose a Connector: Decide on the connectors you want to support in your application. Some popular connectors include MetaMask, WalletConnect, Portis, Fortmatic, and Torus. Each connector has its own implementation and setup process.
 
-Install Required Packages: Install the necessary packages for the specific connector you want to use. For example, if you're using MetaMask as a connector, you can install the @web3-react/metamask package:
-
-// bash
-`npm install @web3-react/metamask`
+* Install Required Packages: Install the necessary packages for the specific connector you want to use. For example, if you're using MetaMask as a connector, you can install the @web3-react/metamask package: 
+** // bash
+** `npm install @web3-react/metamask`
 
 * Import and Configure the Connector: Import the connector package into your code and configure it within the Web3ReactProvider component. Here's an example for using the MetaMask connector:
 
